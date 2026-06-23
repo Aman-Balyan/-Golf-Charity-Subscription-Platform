@@ -10,7 +10,7 @@ public class CorsConfig {
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
-        config.addAllowedOrigin("http://localhost:5173"); // React dev
+        config.addAllowedOrigin("https://golf-charity-subscription-platform-frontend-oiq3qlhh5.vercel.app"); // React dev
         config.addAllowedMethod("*");
         config.addAllowedHeader("*");
         config.setAllowCredentials(true);
