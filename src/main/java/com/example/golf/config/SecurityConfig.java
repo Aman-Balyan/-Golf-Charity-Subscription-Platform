@@ -39,7 +39,7 @@ public class SecurityConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:4000", "http://localhost:5173","https://golf-charity-subscription-platform-frontend-luc1kwj2f.vercel.app")
+                        .allowedOrigins("http://localhost:4000", "http://localhost:5173","https://resourceful-mercy-production-a016.up.railway.app","https://golf-charity-subscription-platform-frontend-hbtap5247.vercel.app")
                         .allowedMethods("*")
                         .allowedHeaders("*")
                         .allowCredentials(true);
