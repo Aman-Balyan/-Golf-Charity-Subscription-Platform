@@ -44,7 +44,8 @@ public class SecurityConfig {
                 "http://localhost:4000",
                 "http://localhost:5173",
                 "https://resourceful-mercy-production-a016.up.railway.app",
-                "https://golf-charity-subscription-platform-frontend-hbtap5247.vercel.app"
+                "https://golf-charity-subscription-platform-frontend-hbtap5247.vercel.app",
+                "https://golf-charity-subscription-platform-rose.vercel.app"
         ));
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(Arrays.asList("*"));
