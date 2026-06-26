@@ -46,7 +46,8 @@ public class SecurityConfig {
                 "https://resourceful-mercy-production-a016.up.railway.app",
                 "https://golf-charity-subscription-platform-frontend-hbtap5247.vercel.app",
                 "https://golf-charity-subscription-platform-rose.vercel.app",
-                "https://golf-charity-subscription-platform-frontend-249v84hl4.vercel.app'"
+                "https://golf-charity-subscription-platform-frontend-249v84hl4.vercel.app",
+                "https://golf-charity-subscription-platform-frontend-249v84hl4.vercel.app"
         ));
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(Arrays.asList("*"));
